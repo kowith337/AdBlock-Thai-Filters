@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1625411013002,
-  "version": "1.36.0",
+  "timeStamp": 1636528870000,
+  "version": "1.38.6",
   "userSettings": {
     "externalLists": "https://raw.githubusercontent.com/Faelayis/adblock-thai-filters/master/filters-pre-release.txt\nhttps://raw.githubusercontent.com/Faelayis/adblock-thai-filters/master/filters.txt",
     "importedLists": [
@@ -9,6 +9,10 @@
     ]
   },
   "selectedFilterLists": [
+    "user-filters",
+    "assets.json",
+    "public_suffix_list.dat",
+    "ublock-badlists",
     "ublock-filters",
     "ublock-badware",
     "ublock-privacy",
@@ -28,27 +32,17 @@
   ],
   "hiddenSettings": {},
   "whitelist": [
-    "# about-scheme",
-    "# chrome-extension-scheme",
-    "# chrome-scheme",
-    "# edge-scheme",
-    "# moz-extension-scheme",
-    "# opera-scheme",
-    "# vivaldi-scheme",
-    "# wyciwyg-scheme",
-    "adfoc.us",
-    "client.falixnodes.net",
-    "control.idley.gg",
-    "discord.com",
-    "megaup.net",
-    "panel.falixnodes.net",
-    "popularmmos.com",
-    "premid.app",
-    "splix.io",
-    "uptimerobot.com"
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
   ],
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
   "userFilters": ""
 }
